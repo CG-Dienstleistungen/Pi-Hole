@@ -1,0 +1,13 @@
+### Pi-hole ###
+
+# Pakete installieren, die benöptigt werden.
+
+sudo apt-get install wget curl net-tools gamin lighttpd lighttpd-mod-deflate
+
+# Pi-hole Installieren.
+
+curl -sSL https://install.pi-hole.net | bash
+
+# Pi-hole admin password ändern
+
+pihole -a -p
